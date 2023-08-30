@@ -1,6 +1,6 @@
-# media-preview-tools
+# MediaPreviewTools
 
-富媒体阅览工具组件
+# 富媒体阅览工具组件
 
 ## 支持媒体格式
 
