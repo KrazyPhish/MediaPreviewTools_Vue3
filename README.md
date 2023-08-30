@@ -4,11 +4,11 @@
 
 ![image](https://github.com/KrazyPhish/MediaPreviewTools/blob/main/src/assets/dev.png)
 
-![image2](https://github.com/KrazyPhish/MediaPreviewTools/blob/master/src/assets/dev2.png)
+![image2](https://github.com/KrazyPhish/MediaPreviewTools/blob/main/src/assets/dev2.png)
 
-![image3](https://github.com/KrazyPhish/MediaPreviewTools/blob/master/src/assets/dev3.png)
+![image3](https://github.com/KrazyPhish/MediaPreviewTools/blob/main/src/assets/dev3.png)
 
-![image4](https://github.com/KrazyPhish/MediaPreviewTools/blob/master/src/assets/dev4.png)
+![image4](https://github.com/KrazyPhish/MediaPreviewTools/blob/main/src/assets/dev4.png)
 
 ## 支持媒体格式
 
@@ -56,8 +56,18 @@ CommonPopover（自定义气泡，与ElPopover类似） CommonToolbar（播放�
 
 wavesurfer（https://wavesurfer-js.org/） 和 popper（https://popper.js.org/） 都是很强大的插件
 
-如果有更多深入的定制功能，都可以在基于该组件和上述插件扩展开发，如本组件中的关于音频内容的分区域展示、播放等扩展功能其实就是属于定制化的内容
+如果有更多深入的定制功能，都可以在基于该组件和上述插件扩展开发
+
+如本组件中的关于音频内容的分区域展示、播放等扩展功能其实就是属于定制化的内容
 
 ## 配置化
 
 所有的播放器功能都是可配置化的，针对特定的需求选择需要的内容如控件按钮、功能等
+
+## 其他
+
+左侧的+、-按钮用于浏览Office和Email文件时使用按钮使其放大或缩小
+
+这部分逻辑需要在Office或Email源文件转换为HTML时由负责转换的后端将其写入对应的HTML文件的script标签当中
+
+本项目提供的测试文件中可以找到具体的代码逻辑，也可以测试成功
