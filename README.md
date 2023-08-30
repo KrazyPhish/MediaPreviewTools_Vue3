@@ -4,11 +4,11 @@
 
 ![image](https://github.com/KrazyPhish/MediaPreviewTools/blob/main/src/assets/dev.png)
 
-![image2](https://github.com/KrazyPhish/MediaPreviewTools/blob/master/src/assets/dev2.png)
+![image2](https://github.com/KrazyPhish/MediaPreviewTools/blob/main/src/assets/dev2.png)
 
-![image3](https://github.com/KrazyPhish/MediaPreviewTools/blob/master/src/assets/dev3.png)
+![image3](https://github.com/KrazyPhish/MediaPreviewTools/blob/main/src/assets/dev3.png)
 
-![image4](https://github.com/KrazyPhish/MediaPreviewTools/blob/master/src/assets/dev4.png)
+![image4](https://github.com/KrazyPhish/MediaPreviewTools/blob/main/src/assets/dev4.png)
 
 ## 支持媒体格式
 
