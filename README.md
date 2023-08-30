@@ -2,7 +2,7 @@
 
 # 富媒体阅览工具组件
 
-![image1](https://github.com/KrazyPhish/MediaPreviewTools/blob/master/src/assets/dev.png)
+![image](https://github.com/KrazyPhish/MediaPreviewTools/blob/master/src/assets/dev.png)
 
 ## 支持媒体格式
 
