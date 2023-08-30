@@ -4,9 +4,15 @@
 
 ![image1](https://github.com/KrazyPhish/MediaPreviewTools/blob/master/src/assets/dev.png)
 
+![image2](https://github.com/KrazyPhish/MediaPreviewTools/blob/master/src/assets/dev2.png)
+
+![image3](https://github.com/KrazyPhish/MediaPreviewTools/blob/master/src/assets/dev3.png)
+
+![image4](https://github.com/KrazyPhish/MediaPreviewTools/blob/master/src/assets/dev4.png)
+
 ## 支持媒体格式
 
-支持视频、音频、图片、PDF和Office等文本格式
+支持视频、音频、图片、PDF、Email和Office等文本格式
 
 其中视频、音频、图片和PDF都仅支持符合W3C规范的能由现代浏览器直接打开的格式文件如：
 
@@ -18,7 +24,7 @@
 
 PDF：任意PDF
 
-Office：所有格式的Office如ppt，doc等都应有服务端转换为HTML后交付前端展示
+Office、Email：所有格式的Office如ppt，doc等以及Email邮件格式都应由服务端转换为HTML后交付前端再展示
 
 ## 必要依赖（需要手动下载npm install的依赖）
 
