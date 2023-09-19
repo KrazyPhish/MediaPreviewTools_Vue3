@@ -30,7 +30,7 @@ const {
       <div class="container left">
         <ElForm ref="form" label-width="80px" size="small">
           <ElFormItem label="文件类型">
-            <ElSelect v-model="formState.extension" placeholder="请选择活动区域">
+            <ElSelect v-model="formState.extension">
               <ElOption label="音频" value=".mp3"></ElOption>
               <ElOption label="邮件" value=".eml"></ElOption>
               <ElOption label="Office" value=".docx"></ElOption>

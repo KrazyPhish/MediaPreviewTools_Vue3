@@ -73,8 +73,7 @@ export const useAppConfig = (MediaToolsRef: Ref<InstanceType<typeof MediaTools> 
   
   const formState = ref({
     extension: '.mp3',
-    url: '/demo.wav',
-    poster: ''
+    url: '/demo.wav'
   })
   
   const formOption = ref<{ options: Information[] }>({
