@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ElCol, ElForm, ElFormItem, ElOption, ElRow, ElSelect } from 'element-plus'
+import { ElCol, ElForm, ElFormItem, ElOption, ElRow, ElSelect, ElInput } from 'element-plus'
 import { useAppConfig } from './App'
 import { ref } from 'vue'
 import { MediaTools } from './components/MediaTools'
@@ -45,7 +45,7 @@ const {
             </ElSelect>
           </ElFormItem>
           <ElFormItem label="文件地址">
-            <el-input v-model="formState.url"></el-input>
+            <ElInput v-model="formState.url"></ElInput>
           </ElFormItem>
           <ElFormItem size="small">
             <ElButton type="primary" @click="onSubmit">加载</ElButton>
