@@ -36,6 +36,8 @@ element-plus
 
 ## 其他依赖（以模块的形式集成在组件中，不需要额外下载）
 
+viewer.js
+
 wavesurfer.js
 
 popper.js
