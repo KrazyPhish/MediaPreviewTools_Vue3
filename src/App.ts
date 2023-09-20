@@ -13,7 +13,7 @@ export interface AppConfig {
   vtt: Ref<string>,
   poster: Ref<string>,
   information: Ref<Information[]>,
-  formState: Ref<{ extension: string, url: string, poster: string }>,
+  formState: Ref<{ extension: string, url: string }>,
   formOption: Ref<{ options: Information[] }>,
   dataSources: Ref<AudioRegion[]>,
   zoomIn: () => void,
@@ -146,5 +146,5 @@ export const useAppConfig = (MediaToolsRef: Ref<InstanceType<typeof MediaTools> 
     zoomOut,
     onSubmit,
     saveCutter
-  }
+  } as AppConfig
 }
