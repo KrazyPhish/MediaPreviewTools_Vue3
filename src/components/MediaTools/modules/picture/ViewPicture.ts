@@ -62,7 +62,7 @@ export const useViewPictureConfig = (
         calcPreviewBoxPos(ev)
       },
       zoomed: () => {
-        calcMiniMapSIze()
+        calcMiniMapSize()
       },
       ready: () => {
         miniMapEventConfig()
@@ -82,7 +82,7 @@ export const useViewPictureConfig = (
     }
   }
   
-  const calcMiniMapSIze = () => {
+  const calcMiniMapSize = () => {
     if (!imageDom.value || !imageContainerDom.value) {
       imageDom.value = imgMainRef.value?.getElementsByClassName('viewer-move')[0] as HTMLDivElement
       imageContainerDom.value = imgMainRef.value?.getElementsByClassName('viewer-container')[0] as HTMLDivElement
