@@ -43,16 +43,16 @@ export const useAudioToolbarConfig = (
     },
     zoomOptions: {
       verticalZoom: {
-        init: props.displayOptions.zoomOptions?.verticalZoom?.init ? props.displayOptions.zoomOptions?.verticalZoom?.init : 1,
-        max: props.displayOptions.zoomOptions?.verticalZoom?.max ? props.displayOptions.zoomOptions?.verticalZoom?.max : 2,
-        min: props.displayOptions.zoomOptions?.verticalZoom?.min ? props.displayOptions.zoomOptions?.verticalZoom?.min : 1,
-        step: props.displayOptions.zoomOptions?.verticalZoom?.step ? props.displayOptions.zoomOptions?.verticalZoom?.step : 3
+        init: props.displayOptions.zoomOptions?.verticalZoom?.init ? props.displayOptions.zoomOptions.verticalZoom.init : 1,
+        max: props.displayOptions.zoomOptions?.verticalZoom?.max ? props.displayOptions.zoomOptions.verticalZoom.max : 2,
+        min: props.displayOptions.zoomOptions?.verticalZoom?.min ? props.displayOptions.zoomOptions.verticalZoom.min : 1,
+        step: props.displayOptions.zoomOptions?.verticalZoom?.step ? props.displayOptions.zoomOptions.verticalZoom.step : 3
       },
       horizontalZoom: {
-        init: props.displayOptions.zoomOptions?.horizontalZoom?.init ? props.displayOptions.zoomOptions?.horizontalZoom?.init : 1,
-        max: props.displayOptions.zoomOptions?.horizontalZoom?.max ? props.displayOptions.zoomOptions?.horizontalZoom?.max : 2,
-        min: props.displayOptions.zoomOptions?.horizontalZoom?.min ? props.displayOptions.zoomOptions?.horizontalZoom?.min : 1,
-        step: props.displayOptions.zoomOptions?.horizontalZoom?.step ? props.displayOptions.zoomOptions?.horizontalZoom?.step : 0.01
+        init: props.displayOptions.zoomOptions?.horizontalZoom?.init ? props.displayOptions.zoomOptions.horizontalZoom.init : 1,
+        max: props.displayOptions.zoomOptions?.horizontalZoom?.max ? props.displayOptions.zoomOptions.horizontalZoom.max : 2,
+        min: props.displayOptions.zoomOptions?.horizontalZoom?.min ? props.displayOptions.zoomOptions.horizontalZoom.min : 1,
+        step: props.displayOptions.zoomOptions?.horizontalZoom?.step ? props.displayOptions.zoomOptions.horizontalZoom.step : 0.01
       }
     }
   })

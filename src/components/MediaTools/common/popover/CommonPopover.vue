@@ -45,7 +45,8 @@ defineExpose({ toggle })
       v-show="showPopper"
       class="common-popover common-popper"
       :class="[popperClass]"
-      :style="popperStyle">
+      :style="popperStyle"
+    >
       <slot></slot>
       <div class="popper__arrow" :style="arrowStyle" data-popper-arrow></div>
     </div>

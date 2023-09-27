@@ -18,15 +18,16 @@ export const useCommonPopoverConfig = (
 
   const popperStyle = reactive<CSSProperties>({
     width: typeof props.width == 'string' ? props.width : props.width + 'px',
-    backgroundColor: 'white',
+    backgroundColor: '',
     borderRadius: '5px',
     color: 'grey',
-    padding: '5px'
+    padding: '10px',
+    boxShadow: '0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05)'
   })
 
   const arrowStyle = reactive<CSSProperties>({
-    width: '10px',
-    height: '10px',
+    width: '15px',
+    height: '15px',
     zIndex: -1,
     boxSizing: 'border-box',
     backgroundColor: 'white',
@@ -42,12 +43,10 @@ export const useCommonPopoverConfig = (
   })
   
   const instanceProxy = reactive<{
-    referenceEl: RendererNode | null,
     reference: HTMLElement | undefined,
     popperEl: Instance | undefined,
     popper: HTMLDivElement | undefined
   }>({
-    referenceEl: null,
     reference: undefined,
     popperEl: undefined,
     popper: undefined
@@ -74,6 +73,7 @@ export const useCommonPopoverConfig = (
   onBeforeUnmount(() => {
     destroyPopper()
     listeners.stopReference?.()
+    listeners.stopDocument?.()
   })
   
   const toggle = () => {
