@@ -14,6 +14,7 @@ export const useAudioToolbarConfig = (
     (evt: 'play'): void,
     (evt: 'pause'): void,
     (evt: 'stop'): void,
+    (evt: 'skip', time: number): void,
     (evt: 'onFullScreen'): void,
     (evt: 'offFullScreen'): void,
     (evt: 'changeVolume', volume: number): void,
@@ -98,6 +99,10 @@ export const useAudioToolbarConfig = (
     emits('stop')
   }
 
+  const skip = (time: number) => {
+    emits('skip', time)
+  }
+
   const onZoom = (mode: 'horizontal' | 'vertical', zoom: number) => {
     emits('onZoom', mode, zoom)
   }
@@ -121,6 +126,7 @@ export const useAudioToolbarConfig = (
     play,
     pause,
     stop,
+    skip,
     onZoom,
     onSpect
   }

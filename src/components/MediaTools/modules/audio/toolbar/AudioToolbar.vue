@@ -71,6 +71,7 @@ const emits = defineEmits<{
   (evt: 'play'): void
   (evt: 'pause'): void
   (evt: 'stop'): void
+  (evt: 'skip', time: number): void
   (evt: 'onFullScreen'): void
   (evt: 'offFullScreen'): void
   (evt: 'changeVolume', volume: number): void
@@ -97,6 +98,7 @@ const {
   play,
   pause,
   stop,
+  skip,
   onZoom,
   onSpect
 } = useAudioToolbarConfig(props, emits)
@@ -112,6 +114,7 @@ const {
     @play="play"
     @pause="pause"
     @stop="stop"
+    @skip="skip"
     @changePlayRate="changePlayRate"
     @changeVolume="changeVolume"
     @onFullScreen="onFullScreen"
