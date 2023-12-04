@@ -54,7 +54,7 @@ defineExpose({ toggle })
   </span>
 </template>
 
-<style>
+<style scoped>
 .common-popover.common-popper {
   background-color: white;
 }
