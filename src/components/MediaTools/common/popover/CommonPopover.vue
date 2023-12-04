@@ -53,3 +53,9 @@ defineExpose({ toggle })
     <div ref="referenceRef"><slot name="reference"></slot></div>
   </span>
 </template>
+
+<style>
+.common-popover.common-popper {
+  background-color: white;
+}
+</style>
